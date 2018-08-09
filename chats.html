@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Fontawesome Icons css -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <title>Chats</title>
+    </head>
+    <body>
+      <header>
+        <div class="header__top">
+          <div class="header__column">
+            <i class="fas fa-plane-departure"></i>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="header__column">
+            <span class="header__time">18:38</span>
+          </div>
+          <div class="header__column">
+            <i class='fas fa-moon'></i>
+            <i class="fab fa-bluetooth-b"></i>
+            <span class="header__battery">66%<i class="fas fa-battery-quarter"></i></span>
+          </div>
+        <div class="header__bottom">
+          <div class="header__column">
+            <span class="header__text">Edit</span>
+          </div>
+          <div class="header__column">
+            <span class="header__text">Chats<i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="header__column">
+
+          </div>
+        </header>
+
+        <main class="chats">
+          <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Find friends, chats, Plus Friends">
+          </div>
+
+          <ul class="chats__list">
+            <li class=chats__chat>
+              <div class="chats__contents">
+                <img src="images/avatar.jpg" alt="user_image">
+                <div class="chat__preview">
+                  <h3 class="chat__user">Col Kim</h3>
+                  <span class="chat__last-massage">Hello! This is a test massage.</span>
+                </div>
+              <span class="chat__date">17:55</span>
+              </div>
+            </li>
+            <li class=chats__chat>
+              <div class="chats__contents">
+                <img src="images/avatar.jpg" alt="user_image">
+                <div class="chat__preview">
+                  <h3 class="chat__user">KakaoTalk</h3>
+                  <span class="chat__last-massage">You logged into KakaoTalk PC in the PC</span>
+                </div>
+              <span class="chat__date">July 29</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="chat__btn">
+            <i class="fas fa-comment"></i>
+          </div>
+
+        </main>
+
+        <nav class="top__bar">
+          <a href="index.html" class="top__bar__tab">
+            <i class="fas fa-user"></i>
+            <span class="top__bar__title">Friends</span>
+          </a>
+          <a href="chats.html" class="top__bar__tab top__bar__tab--selected">
+            <i class="fas fa-comment"></i>
+            <span class="top__bar__title">Chats</span>
+          </a>
+          <a href="find.html" class="top__bar__tab">
+            <i class="fas fa-search"></i>
+            <span class="top__bar__title">Find</span>
+          </a>
+          <a href="more.html" class="top__bar__tab">
+            <i class="fas fa-ellipsis-h"></i>
+            <span class="top__bar__title">More</span>
+          </a>
+        </nav>
+      </div>
+    </body>
+    </html>
