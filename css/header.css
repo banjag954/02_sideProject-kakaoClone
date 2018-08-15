@@ -1,7 +1,11 @@
-.top-header{
+.top-header {
   background-color : #523737;
-  color : #fff;
+  color : white;
   padding : 5px 10px 15px 10px;
+  position: fixed;
+  width:98.4%;
+  top : 0;
+  z-index: 2;
 }
 
 .top-header .header__top,
@@ -16,13 +20,18 @@
 }
 
 .top-header .header__bottom {
-  margin : 0px 10px 0px 10px;
+  margin : 0px 10px;
   font-size: 15px;
 }
 
 .top-header .header__column {
-  width: 33%;
+  width: 33.3%;
 
+}
+
+.top-header .header__bottom .header__column:first-child {
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .top-header .header__column:last-child {
