@@ -1,11 +1,12 @@
 .top-header {
   background-color : #523737;
-  color : white;
+  color : #fff;
   padding : 5px 10px 15px 10px;
   position: fixed;
   width:100%;
   top : 0;
   box-sizing: border-box;
+  z-index: 1000;
 }
 
 .top-header .header__top,
