@@ -30,7 +30,7 @@
 
 }
 
-.top-header .header__bottom .header__column:first-child {
+.top-header .header__bottom .header__column:nth-child(1) {
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
