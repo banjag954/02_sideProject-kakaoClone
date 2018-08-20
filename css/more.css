@@ -1,0 +1,78 @@
+.more {
+  background-color: #eee;
+}
+
+.more .more__header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:16px 24px 16px 16px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
+}
+
+.more__header i {
+  color : #523737;
+  font-size: 32px;
+}
+
+.more__header .more__header__profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.more__header .more__header__profile img{
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.more__header__profile .more__header__info{
+  margin-bottom: 2px;
+}
+
+.more__header__info .header__title {
+  font-size: 16px;
+  font-weight: bold;
+  color:#4b4b4b;
+  line-height: 20px;
+}
+
+.more__header__info .more__header__subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color:#b4b4b4;
+}
+
+.more .more__options {
+  margin-bottom: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 28px 16px 28px;
+  box-sizing: border-box;
+}
+
+.more__options .more__option {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color:#523737;
+}
+
+.more__option i {
+  margin-bottom: 8px;
+}
+
+.more__option .more__option-title {
+  font-size: 12px;
+}
+
+.more .more__plus-friends {
+
+}

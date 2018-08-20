@@ -1,11 +1,12 @@
 .search-bar {
-  margin : 12px 16px;
+  padding : 12px 16px;
   position: relative;
+  background-color: #fff;
 }
 
 .search-bar input {
   width:100%;
-  padding : 5px 8px 5px 40px;
+  padding : 8px 8px 8px 40px;
   box-sizing: border-box;
   border-radius: 8px;
   border : 0px;
@@ -26,6 +27,6 @@
 .search-bar i {
   position: absolute;
   color : #aaa;
-  top:5px;
-  left: 16px;
+  top:20px;
+  left: 28px;
 }
