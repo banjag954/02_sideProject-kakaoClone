@@ -1,5 +1,5 @@
 .more {
-  background-color: #eee;
+  background-color: #f1f1f1;
 }
 
 .more .more__header {
@@ -62,17 +62,85 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   color:#523737;
 }
 
-.more__option i {
-  margin-bottom: 8px;
-}
-
 .more__option .more__option-title {
+  margin-top: 8px;
   font-size: 12px;
 }
 
 .more .more__plus-friends {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 8px;
+}
 
+.more__plus-friends .plus-friends__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.plus-friends__header .plus-friends__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #523737;
+}
+
+.plus-friends__header .plus-friends__learn-more {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+}
+
+.more__plus-friends .plus-friends__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #4b4b4b;
+}
+
+.plus-friends__items .plus-friends__item {
+  display: flex;
+  width: 50%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.plus-friends__item i {
+  margin-right: 16px;
+}
+
+.plus-friends__item .plus-friends__item--title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.more__links {
+  background-color: #fff;
+  display: flex;
+  padding:24px;
+  margin-bottom: 20px;
+}
+
+.more__links .more__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.more__option img {
+  width:56px;
+  margin-bottom: 2px;
+
+}
+
+.more__option .more__option-title {
+  text-align: center;
+  line-height: 14px;
+  font-size: 12px;
 }
