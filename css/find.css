@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   padding: 24px 0px 16px;
-
 }
 
 .find__options .find__option {
@@ -23,8 +22,7 @@
   font-weight: 400;
 }
 
-
-.find__recommended header{
+.find__recommended header {
   border-top : 0.5px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 8px 16px;
