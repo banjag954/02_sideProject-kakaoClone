@@ -17,6 +17,7 @@
 .more__header i {
   color : #523737;
   font-size: 32px;
+  cursor: pointer;
 }
 
 .more__header .more__header__profile {
