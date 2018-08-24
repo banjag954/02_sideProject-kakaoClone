@@ -161,7 +161,8 @@
 }
 .type-message__input input {
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   width:100%;
   padding:8px;
   border: 1px solid #e4e4e4;

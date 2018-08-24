@@ -6,7 +6,6 @@
 
 .search-bar input {
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
   width:100%;
   padding : 8px 8px 8px 40px;
   box-sizing: border-box;
@@ -34,6 +33,6 @@
 .search-bar i {
   position: absolute;
   color : #aaa;
-  top:20px;
+  top:21px;
   left: 28px;
 }
