@@ -1,5 +1,6 @@
 .top__bar {
   -webkit-appearance: none;
+  border-radius: 1px;
   background-color: #f7f7f7;
   position:fixed;
   width:100%;
