@@ -186,4 +186,10 @@
   color:#523737;
   border: 1px solid #e8d545;
   cursor: pointer;
+  transition:all 0.3s ease;
+}
+
+.type-message__input .record-message:hover {
+  background-color: #e5d04b;
+  color:#564141;
 }

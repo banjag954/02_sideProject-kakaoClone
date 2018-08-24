@@ -16,6 +16,11 @@
   text-decoration: none;
   margin: 10px 30px 5px 30px;
   color : #c1c1c1;
+  transition: color 0.15s ease-in-out;
+}
+
+.top__bar .top__bar__tab:hover {
+  color : #523737;
 }
 
 .top__bar .top__bar__tab i {

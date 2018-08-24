@@ -21,6 +21,10 @@
   background-color: #fff;
 }
 
+.friends__section--rows .friends__section--row:hover {
+  background-color: #fafafa;
+}
+
 .friends__section--rows .friends__section--row:nth-child(2){
   border-bottom: none;
 }
