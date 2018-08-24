@@ -25,6 +25,11 @@
   border-bottom: none;
 }
 
+.friends__section--rows .friends__section--name{
+  display: flex;
+  align-items: center;
+}
+
 .friends__section--row img {
   width: 48px;
   height: 48px;
