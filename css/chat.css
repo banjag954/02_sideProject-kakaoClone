@@ -160,6 +160,7 @@
   position: relative;
 }
 .type-message__input input {
+  -webkit-appearance: none;
   width:100%;
   padding:8px;
   border: 1px solid #e4e4e4;
