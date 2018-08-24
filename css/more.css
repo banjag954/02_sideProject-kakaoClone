@@ -21,6 +21,7 @@
 }
 
 .more__header .more__header__profile {
+  text-decoration: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;

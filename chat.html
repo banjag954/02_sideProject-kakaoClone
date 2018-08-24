@@ -9,8 +9,8 @@
       <title>Chat</title>
       <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-      <header class="top-header">
+    <body class="body-chat">
+      <header class="top-header chat-header">
         <div class="header__top">
           <div class="header__column">
             <i class="fas fa-plane-departure"></i>
@@ -34,8 +34,10 @@
           <div class="header__column">
             <span class="header__text">Col Kim</span>
           </div>
-          <div class="header__column">
-            <i class="fas fa-search fa-lg"></i>
+          <div class="header__column search__column">
+            <div class="search-header">
+              <i class="fas fa-search fa-lg"></i>
+            </div>
             <i class="fas fa-bars fa-lg"></i>
           </div>
         </div>
@@ -45,7 +47,7 @@
 
           <div class="date-divider">
             <span class="date-divider__text">
-              Wendnesday, August
+              ----- Wendnesday, August -----
             </span>
           </div>
 
@@ -59,11 +61,13 @@
           </div>
 
           <div class="chat__message chat__message--to-me">
-            <img src="images/avatar.jpg" alt="my image" class="chat__message-userImage">
+            <a href="profile_02.html">
+              <img src="images/col.png" alt="my image" class="chat__message-userImage">
+            </a>
             <div class="chat__message-center">
               <h3 class="chat__message-username">Col Kim</h3>
               <span class="chat__message-body">
-                And this is an answer
+                  And this is an answer
               </span>
             </div>
             <span class="chat__message-time">
@@ -76,7 +80,7 @@
         <i class="fas fa-plus fa-2x"></i>
         <div class="type-message__input">
           <input type="text" name="" value="">
-          <i class="far fa-smile"></i>
+          <i class="far fa-smile fa-lg"></i>
           <span class="record-message">
             <i class="fas fa-microphone"></i>
           </span>
