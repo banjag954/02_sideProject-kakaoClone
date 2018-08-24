@@ -5,6 +5,8 @@
 }
 
 .search-bar input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   width:100%;
   padding : 8px 8px 8px 40px;
   box-sizing: border-box;
