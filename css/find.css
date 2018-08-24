@@ -20,6 +20,7 @@
 .find__option .find__option--title {
   font-size: 10px;
   font-weight: 400;
+  text-align: center;
 }
 
 .find__recommended header {
